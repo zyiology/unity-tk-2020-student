@@ -52,7 +52,9 @@ public class TextScript : MonoBehaviour
 			
 			//adding listener to button, ie when button is clicked, call the function ChoiceOnClick with the input temp
 			string temp = storyCompiler.getAfterFromText(buttonTitle);
-			choice.onClick.AddListener(delegate {ChoiceOnClick(temp);});
+
+			/* Uncomment following line when you finish*/
+			// choice.onClick.AddListener(delegate {ChoiceOnClick(temp);});
 		}
 	}
 	
